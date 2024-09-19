@@ -1,8 +1,7 @@
-# React + Vite
+# Currency Converter Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple currency converter application that allows users to view real-time exchange rates and convert between multiple currencies. The header displays the current exchange rates for USD and EUR against the Ukrainian hryvnia (UAH) using data from a public API.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features:
+Real-Time Exchange Rates: Fetches live exchange rates for USD, EUR, and UAH.
+Currency Conversion: Allows users to convert between UAH, USD, and EUR. The conversion happens in both directions, updating dynamically when values or currencies are changed in either input.
